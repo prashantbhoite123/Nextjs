@@ -13,7 +13,7 @@ const Navbar = async () => {
         </Link>
         <div className="flex items-center  gap-5 text-black">
           {session && session?.user ? (
-            <div className="flex justify-between gap-x-2 items-center">
+            <div className="flex justify-between gap-5 items-center">
               <Link href="/startup/create">
                 <span>Create</span>
               </Link>
