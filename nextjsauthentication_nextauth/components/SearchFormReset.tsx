@@ -12,7 +12,7 @@ function SearchFormReset() {
     <div className="flex gap-2">
       <button type="reset" onClick={reset}>
         <Link href="/" className="search-btn text-white">
-          <X />
+          <X />   
         </Link>
       </button>
     </div>

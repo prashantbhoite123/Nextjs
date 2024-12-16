@@ -1,5 +1,5 @@
 import Image from "next/image"
-import SearchForm from "../components/SearchForm"
+import SearchForm from "../../components/SearchForm"
 
 const Home = async ({
   searchParams,
